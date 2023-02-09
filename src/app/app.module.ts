@@ -11,6 +11,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { SpinnerComponent } from './componentes/spinner/spinner.component';
 import { GaleriaModule } from './modulos/galeria/galeria.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GaleriaModule } from './modulos/galeria/galeria.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GaleriaModule
+    GaleriaModule,
+    NgbModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

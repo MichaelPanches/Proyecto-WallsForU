@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BuscarComponent } from './buscar/buscar.component';
 import { ListarComponent } from './listar/listar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 
 
@@ -11,7 +13,8 @@ import { ListarComponent } from './listar/listar.component';
     ListarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgbModule
   ],
   exports: [
     BuscarComponent
