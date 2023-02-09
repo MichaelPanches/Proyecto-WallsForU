@@ -10,6 +10,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { SpinnerComponent } from './componentes/spinner/spinner.component';
+import { GaleriaModule } from './modulos/galeria/galeria.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SpinnerComponent } from './componentes/spinner/spinner.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GaleriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
